@@ -1,52 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Mi Sitio Web</title>
+    <title>Grupo Confiar - Saneamiento Financiero</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Encabezado -->
-        <header>
-            <h1>Mi sitio Web</h1>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contactos</a>
-            </nav>
-            <hr>
-        </header>
-        <!--Seccion principal-->
-        <main>
-            <section>
-                <h2>Bienvenido</h2>
-                <p> 
-                    Esta es la pagina principal de mi sitio web creada unicamente con Aqui puedes colocar informacion importante
-                </p>
-                <button>Ver mas</button>
-            </section>
-            <section>
-                <h2>Ultimas noticias</h2>
-                <article>
-                    <h3>Noticia 1</h3>
-                    <p>
-                        Breve descripcion de la noticia 
-                    </p>
-                </article>
-                <articl>
-                    <h3>Noticia 2</h3>
-                    <p>
-                        Otra descripcion de la noticia 
-                    </p>
-                </articl>
-            </section>
-        </main>
 
-        <hr>
 
-        <footer>
-            <p>2026 Mi sitio web - Todos los derechos reservados</p>
-        </footer>
+    
+    <header>
+        <img src="img/logo2.jpg" alt="Logo Grupo Confiar" class="logo">
+        <h1>Grupo Confiar</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        
+        <section id="inicio" class="bienvenida">
+            <h2>Recupera tu vida crediticia con nosotros</h2>
+            <p>Ayudamos a eliminar reportes negativos y mejorar tu historial financiero
+                mediante estrategias legales y profesionales.</p>
+
+            <button>Solicitar una consulta gratuita</button>
+        </section>
+
+
+        <section id="galeria" class="galeria">
+            <h2>Galería</h2>
+
+            <img src="img/oficina1.png" alt="Oficina Grupo Confiar 1">
+            <img src="img/oficina2.png" alt="Oficina Grupo Confiar 2">
+        </section>
+
+        
+        <section id="servicios" class="servicios">
+            <h2>Nuestros Servicios</h2>
+
+            <ul>
+                <li>Atención especializada a personas reportadas</li>
+                <li>Negociación de carteras vencidas o castigadas</li>
+                <li>Eliminación de vectores negativos en centrales de riesgo</li>
+                <li>Aumento estratégico del score crediticio</li>
+            </ul>
+        </section>
+
+        
+        <section id="tabla">
+            <h2>Tabla de Servicios</h2>
+
+            <table>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Descripción</th>
+                </tr>
+
+                <tr>
+                    <td>Saneamiento de cartera</td>
+                    <td>Negociación con entidades financieras para limpiar deudas pendientes.</td>
+                </tr>
+
+                <tr>
+                    <td>Eliminación de vectores</td>
+                    <td>Corrección de reportes negativos en Datacrédito o TransUnion.</td>
+                </tr>
+
+                <tr>
+                    <td>Aumento del score</td>
+                    <td>Estrategias profesionales para subir el puntaje crediticio.</td>
+                </tr>
+            </table>
+        </section>
+
+        
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+
+            <form>
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Correo electrónico">
+                <input type="tel" placeholder="Número de teléfono">
+                <textarea placeholder="Mensaje"></textarea>
+
+                <button>Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>© 2025 Grupo Confiar / Todos los derechos reservados</p>
+    </footer>
+
 </body>
+
 </html>
